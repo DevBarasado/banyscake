@@ -1,0 +1,301 @@
+.btn-h1-spacing {
+	margin-top: 18px;
+}
+
+.form-spacing-top {
+	margin-top: 30px;
+}
+.comment {
+	margin-bottom: 45px;
+}
+
+.author-image {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	float: left;
+}
+
+.author-name {
+    margin: 5px;
+	margin-left: 15px; 
+    text-align:left;
+}
+
+.author-name {
+	margin: 5px 0px;
+    text-align: left;
+	
+}
+
+.author-time {
+    margin: 0;
+	font-size: 11px;
+	font-style: italic;
+	color: #aaa;
+    text-align: left;
+    
+}
+
+.comment-content {
+	clear: both;
+	margin-left: 65px;
+	font-size: 16px;
+	line-height: 1.3em;
+}
+
+.comments-title {
+	margin-bottom:45px;
+}
+
+.comments-title>span {
+	margin-right: 15px;
+}
+body {
+    font-size: 16px;
+    font-family: "Roboto", Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: olivedrab;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    color: #8900c6;
+}
+.nav navbar-nav navbar-left{
+    text-align: justify;
+    font-size: 1.6em;
+}
+
+h3 {
+    margin: 0;
+    text-align: justify;
+}
+
+.main {
+    width: 700px;
+    margin: 32px auto;
+}
+
+
+.btn {
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 4px 6px;
+    background-color: #228B22;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.btn.danger {
+    color: #e5003c;
+    border: 1px solid #e5003c;
+    background-color: #ffc4be;
+}
+
+.btn.danger:hover,
+.btn.danger:active {
+    background-color: #e5003c;
+    color: white;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: blue;
+    color: #8900c6;
+}
+
+/* Social slider */
+.social-slider {
+    width: 50px;
+    height: 100px;
+    position: fixed;
+    left: 0;
+    top: 25vh;
+    background-color: #ad67d2;
+    box-shadow: 1px 1px 1px darkgray;
+}
+
+/* Navigation */
+.navbar-collapse collapse {
+    border-bottom: 1px solid lightgray;
+    box-shadow: 0px 2px 2px lightgray;
+    text-align: center;
+    font-size: 24px;
+    float:right;
+    color:darkolivegreen;
+    background-color: lightcoral;
+}
+
+.row-footer ul {
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#main-nav ul li,
+.row-footer ul li {
+    display: inline-block;
+    padding: 16px 8px;
+    transition: background-color 0.2s;
+    text-align: center;
+}
+
+#main-nav li:hover {
+    background-color:#ad67d2 ;
+}
+
+#main-nav a {
+    color: darkolivegreen;
+    transition: all 0.2s;
+}
+
+#main-nav li:hover a {
+    color: #ad67d2;
+}
+
+#main-nav a:hover,
+#main-nav a:active {
+    color: #ad67d2;
+}
+
+.active {
+    background-color: white;
+}
+
+.active a {
+    color: #ad67d2;
+}
+
+/* Footer */
+.row-footer ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.row-footer ul li {
+    display: inline-block;
+    padding: 32px 16px;
+    transition: background-color 0.3s;
+}
+
+/* Blog posts etc. */
+.blog-post {
+    border: 2px solid #ad67d2;
+    border-radius: 8px 0 8px 8px;
+    padding: 16px;
+    margin-bottom: 32px;
+}
+
+.subtitle {
+    color: darkgrey;
+    font-size: 14px;
+}
+
+.pagination {
+    font-size: 28px;
+}
+
+.pagination a {
+    padding: 0 16px;
+}
+
+/* Contact form */
+
+#contact-form input {
+    width: 66%;
+}
+.navbar-brand{
+    font-size: 1.2em;
+    
+}
+.form-group{
+    text-align: justify;
+}
+
+.navbar-inverse {
+  background: #228B22;
+  color: #fff;
+  text-align: center;
+  font-size: 1.4em;
+}
+.navbar-inverse .navbar-nav > .active > a {
+  background: #228B22;
+  color:   #fff;
+}
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background: #228B22;
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background: #228B22;
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > .open > a {
+  background: #228B22;
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > .open > a:hover {
+  background: #228B22;
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background: #228B22;
+  color: #fff;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+  background-color: #228B22;
+  color: #fff;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+  color: #fff;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+  background-color: #228B22;
+  color: #fff;
+}
+.jumbotron{
+    background-image: url('../images/img/migration.jpg');
+    padding: 200px;
+     
+}
+
+body {
+  text-align:   center;
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+}
+h3 {
+    color:#8900c6;
+    text-align: justify
+}
+h4 {
+    color:blue;
+    text-align: justify
+    padding: 100Px;
+}
+p{
+    font-size 0.9em;
+    text-align: justify;
+}
+html{
+ border-left: 20px;
+ border-right: 20px;
+ margin: 0;
+ padding: 0;
+ font-family: Helvetica, Arial, sans-serif;
+}
+. nav navbar-nav ul{
+    font-size:2.0 em;
+    color:#fff;
+    text-align: center;
+
+
+}
